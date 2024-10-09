@@ -1,0 +1,123 @@
+/* Mobile view */
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .login-section {
+        margin: 10%;
+    }
+
+    nav .navbar-brand {
+        font-size: 22px !important;
+    }
+
+    .addtocart-count {
+        height: 29px;
+        width: 29px;
+        margin-left: 40px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+        padding: 3px !important;
+    }
+
+    .navbar-toggler span {
+        color: #fff;
+    }
+
+    .navbar-collapse ul {
+        width: 130px;
+    }
+
+    .navbar-collapse ul a {
+        padding: 5px 15px;
+    }
+
+    .product-container img {
+        height: 100px;
+    }
+
+    .sm-f-12 {
+        font-size: 12px !important;
+    }
+
+    .search-bar {
+        height: 27px;
+        width: 180px;
+    }
+
+    .sortby-price {
+        width: 83px;
+        font-size: 13px;
+    }
+
+    .cart-container {
+        margin: 20px 0px;
+    }
+
+    .product-description {
+        font-size: 12px;
+    }
+
+    .product-container .btnbgcolor {
+        width: 40px;
+        height: 34px;
+    }
+
+    .item-total {
+        font-size: 14px;
+        padding: 3px;
+    }
+
+    .product-container span svg {
+        font-size: 20px !important;
+    }
+
+    .modal-footer button {
+        font-size: 14px;
+        width: 60px;
+    }
+    .product-price {
+        width: 85px;
+    }
+    .margin-left {
+        margin-left: 16%;
+    }
+}
+
+
+/* Tab view  */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .login-section {
+        margin: 4% 30%;
+    }
+    .navbar-toggler span {
+        color: #fff;
+    }
+    .navbar-collapse ul {
+        width: 130px;
+    }
+    .navbar-collapse ul a {
+        padding: 5px 15px;
+    }
+    .addtocart-count {
+        height: 30px;
+        width: 30px;
+        margin-top: -7px;
+        margin-left: 38px;
+    }
+    .margin-left{
+        margin-left: 52%;
+    }
+    .navbar-toggler {
+        border: none !important;
+        padding: 3px !important;
+    }
+    .modal-xl{
+        margin: 2% 6% !important;
+     
+    }   
+    .modal-content{
+        width: 680px !important;   
+    }
+}
